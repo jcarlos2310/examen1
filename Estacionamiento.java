@@ -5,15 +5,16 @@ public class Estacionamiento
    private String placa;
    public Estacionamiento(int disponible,String placa){
       this.disponible=disponible; 
-      this.placa = placa;
+      
    }
    public int disponible(int disp){
-       if (disp!=0){
+       disp=Carros.numerosCarros;
+       if (disp<=150){
         return 1;
        }
         return 0;
    }
-   public void buscar placa(){
-        
+   public void buscarPlaca(){
+        placa=Carro.bucarPlaca();        
    }
 }
