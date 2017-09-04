@@ -1,4 +1,5 @@
-import java.util.Array();
+import.java.util.Array();
+
 public class Carro{
        private int horaEnt;
        private int minutosEnt;
